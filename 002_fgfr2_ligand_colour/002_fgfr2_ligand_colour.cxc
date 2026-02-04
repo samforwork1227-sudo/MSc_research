@@ -1,0 +1,11 @@
+close session
+open C:/Users/SamanthaTu/OneDrive/Desktop/MSc_research/002_fgfr2_ligand_colour/002_fgfr2_ligand_colour_model.cif
+cartoon
+color /A:1-377 blue
+color /A:378-398 red
+color /A:399-821 green
+
+select :LIG1
+show :LIG1 atoms
+style :LIG1 stick
+color :LIG1 gold

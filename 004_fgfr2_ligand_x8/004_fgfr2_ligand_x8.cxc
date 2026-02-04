@@ -1,0 +1,45 @@
+close session
+open C:/Users/SamanthaTu/OneDrive/Desktop/MSc_research/004_fgfr2_ligand_x8/004_fgfr2_ligand_x8_model.cif
+cartoon
+color /A:1-377 blue
+color /A:378-398 red
+color /A:399-821 green
+
+define plane /A:378-398@CA radius 45 thickness 2 color #808080
+
+show #1/B-I
+style #1/B-I stick
+color #1/B-I gold
+
+sym clear #1
+
+view /A
+
+move cofr /B
+move cofr /C
+move cofr /D
+move cofr /E
+move cofr /F
+move cofr /G
+move cofr /H
+move cofr /I
+
+# Ring arrangement
+move x 35 models /B
+move x 35 models /C
+turn z 45 models /C
+move x 35 models /D
+turn z 90 models /D
+move x 35 models /E
+turn z 135 models /E
+move x 35 models /F
+turn z 180 models /F
+move x 35 models /G
+turn z 225 models /G
+move x 35 models /H
+turn z 270 models /H
+move x 35 models /I
+turn z 315 models /I
+
+select #1/B-I
+move z -10
