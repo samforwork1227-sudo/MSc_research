@@ -1,0 +1,11 @@
+close session
+open C:/Users/SamanthaTu/OneDrive/Desktop/MSc_research/006_fgfr2_ECD_ICD_torsion/006_fgfr2_ECD_ICD_torsion_model.cif
+# Display and color domains
+cartoon
+color /A:1-377 blue
+color /A:378-398 red
+color /A:399-821 green
+view /A
+
+# Flip ICD to the other side while keeping the chain connected
+torsion /A:398@C /A:399@N /A:399@CA /A:399@C 160 move large

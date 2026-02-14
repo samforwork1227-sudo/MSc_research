@@ -1,0 +1,229 @@
+close session
+open C:/Users/SamanthaTu/OneDrive/Desktop/MSc_research/005_fgfr2_ligand_x50/005_fgfr2_ligand_x50_model.cif
+
+cartoon
+color /A:1-377 blue
+color /A:378-398 red
+color /A:399-821 green
+view /A
+
+define plane /A:378-398@CA radius 45 thickness 2 color #808080
+
+split #1 atoms /A:1-377 atoms /A:378-398 atoms /A:399-821
+move z 25 models #1.1
+move z -25 models #1.3
+
+show /B
+style /B stick
+color /B gold
+
+# --- Make 50 ligand copies (display only) ---
+# The original ligand is /B in model #1
+hide /A
+show /B
+
+combine /B name lig2
+combine /B name lig3
+combine /B name lig4
+combine /B name lig5
+combine /B name lig6
+combine /B name lig7
+combine /B name lig8
+combine /B name lig9
+combine /B name lig10
+combine /B name lig11
+combine /B name lig12
+combine /B name lig13
+combine /B name lig14
+combine /B name lig15
+combine /B name lig16
+combine /B name lig17
+combine /B name lig18
+combine /B name lig19
+combine /B name lig20
+combine /B name lig21
+combine /B name lig22
+combine /B name lig23
+combine /B name lig24
+combine /B name lig25
+combine /B name lig26
+combine /B name lig27
+combine /B name lig28
+combine /B name lig29
+combine /B name lig30
+combine /B name lig31
+combine /B name lig32
+combine /B name lig33
+combine /B name lig34
+combine /B name lig35
+combine /B name lig36
+combine /B name lig37
+combine /B name lig38
+combine /B name lig39
+combine /B name lig40
+combine /B name lig41
+combine /B name lig42
+combine /B name lig43
+combine /B name lig44
+combine /B name lig45
+combine /B name lig46
+combine /B name lig47
+combine /B name lig48
+combine /B name lig49
+combine /B name lig50
+
+# --- Arrange ligand models in a ring ---
+move cofr /B
+turn z 0.000 models #1
+move x 35.000 models #1
+move cofr /B
+turn z 7.200 models #2
+move x 35.000 models #2
+move cofr /B
+turn z 14.400 models #3
+move x 35.000 models #3
+move cofr /B
+turn z 21.600 models #4
+move x 35.000 models #4
+move cofr /B
+turn z 28.800 models #5
+move x 35.000 models #5
+move cofr /B
+turn z 36.000 models #6
+move x 35.000 models #6
+move cofr /B
+turn z 43.200 models #7
+move x 35.000 models #7
+move cofr /B
+turn z 50.400 models #8
+move x 35.000 models #8
+move cofr /B
+turn z 57.600 models #9
+move x 35.000 models #9
+move cofr /B
+turn z 64.800 models #10
+move x 35.000 models #10
+move cofr /B
+turn z 72.000 models #11
+move x 35.000 models #11
+move cofr /B
+turn z 79.200 models #12
+move x 35.000 models #12
+move cofr /B
+turn z 86.400 models #13
+move x 35.000 models #13
+move cofr /B
+turn z 93.600 models #14
+move x 35.000 models #14
+move cofr /B
+turn z 100.800 models #15
+move x 35.000 models #15
+move cofr /B
+turn z 108.000 models #16
+move x 35.000 models #16
+move cofr /B
+turn z 115.200 models #17
+move x 35.000 models #17
+move cofr /B
+turn z 122.400 models #18
+move x 35.000 models #18
+move cofr /B
+turn z 129.600 models #19
+move x 35.000 models #19
+move cofr /B
+turn z 136.800 models #20
+move x 35.000 models #20
+move cofr /B
+turn z 144.000 models #21
+move x 35.000 models #21
+move cofr /B
+turn z 151.200 models #22
+move x 35.000 models #22
+move cofr /B
+turn z 158.400 models #23
+move x 35.000 models #23
+move cofr /B
+turn z 165.600 models #24
+move x 35.000 models #24
+move cofr /B
+turn z 172.800 models #25
+move x 35.000 models #25
+move cofr /B
+turn z 180.000 models #26
+move x 35.000 models #26
+move cofr /B
+turn z 187.200 models #27
+move x 35.000 models #27
+move cofr /B
+turn z 194.400 models #28
+move x 35.000 models #28
+move cofr /B
+turn z 201.600 models #29
+move x 35.000 models #29
+move cofr /B
+turn z 208.800 models #30
+move x 35.000 models #30
+move cofr /B
+turn z 216.000 models #31
+move x 35.000 models #31
+move cofr /B
+turn z 223.200 models #32
+move x 35.000 models #32
+move cofr /B
+turn z 230.400 models #33
+move x 35.000 models #33
+move cofr /B
+turn z 237.600 models #34
+move x 35.000 models #34
+move cofr /B
+turn z 244.800 models #35
+move x 35.000 models #35
+move cofr /B
+turn z 252.000 models #36
+move x 35.000 models #36
+move cofr /B
+turn z 259.200 models #37
+move x 35.000 models #37
+move cofr /B
+turn z 266.400 models #38
+move x 35.000 models #38
+move cofr /B
+turn z 273.600 models #39
+move x 35.000 models #39
+move cofr /B
+turn z 280.800 models #40
+move x 35.000 models #40
+move cofr /B
+turn z 288.000 models #41
+move x 35.000 models #41
+move cofr /B
+turn z 295.200 models #42
+move x 35.000 models #42
+move cofr /B
+turn z 302.400 models #43
+move x 35.000 models #43
+move cofr /B
+turn z 309.600 models #44
+move x 35.000 models #44
+move cofr /B
+turn z 316.800 models #45
+move x 35.000 models #45
+move cofr /B
+turn z 324.000 models #46
+move x 35.000 models #46
+move cofr /B
+turn z 331.200 models #47
+move x 35.000 models #47
+move cofr /B
+turn z 338.400 models #48
+move x 35.000 models #48
+move cofr /B
+turn z 345.600 models #49
+move x 35.000 models #49
+move cofr /B
+turn z 352.800 models #50
+move x 35.000 models #50
+
+# Show protein back (optional)
+show /A
+view /A
