@@ -5,16 +5,20 @@ color /A:1-377 blue
 color /A:378-398 red
 color /A:399-821 green
 
-define plane /A:378-398@CA radius 45 thickness 2 color #808080
-
+# Ligands (8 chains)
 show #1/B-I
 style #1/B-I stick
 color #1/B-I gold
 
+
+# IMPORTANT: remove any previous symmetry clones (if you ran sym before)
 sym clear #1
 
+# Put protein near center of view (optional)
 view /A
 
+# Bring each ligand chain to the current center of rotation (cofr)
+# so we start from a consistent origin
 move cofr /B
 move cofr /C
 move cofr /D
@@ -24,22 +28,39 @@ move cofr /G
 move cofr /H
 move cofr /I
 
-# Ring arrangement
+# ---- Arrange ligands into a single ring on the membrane plane ----
+# Tune these two numbers:
+#   R = ring radius (Å)
+#   Z = shift along z to match your plane location (Å)
+
+# Choose ring radius and plane offset (you will likely tweak Z once)
+# (ChimeraX has no simple variable assignment in scripts; just edit numbers below)
+
+# First, push all ligands out to radius R along +x, then rotate around z
+# Chain B at 0°
 move x 35 models /B
+# Chain C at 45°
 move x 35 models /C
 turn z 45 models /C
+# Chain D at 90°
 move x 35 models /D
 turn z 90 models /D
+# Chain E at 135°
 move x 35 models /E
 turn z 135 models /E
+# Chain F at 180°
 move x 35 models /F
 turn z 180 models /F
+# Chain G at 225°
 move x 35 models /G
 turn z 225 models /G
+# Chain H at 270°
 move x 35 models /H
 turn z 270 models /H
+# Chain I at 315°
 move x 35 models /I
 turn z 315 models /I
 
+# Now move the whole ring onto your membrane plane position:
 select #1/B-I
 move z -10

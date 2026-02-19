@@ -1,0 +1,14 @@
+close session
+open C:/Users/SamanthaTu/OneDrive/Desktop/MSc_research/008_fgfr2_ligand_x7/008_fgfr2_ligand_x7_model.cif
+
+cartoon
+color /A:1-377 blue
+color /A:378-398 red
+color /A:399-821 green
+
+show #1/B-H
+style #1/B-H stick
+color #1/B-H gold
+
+view /A
+

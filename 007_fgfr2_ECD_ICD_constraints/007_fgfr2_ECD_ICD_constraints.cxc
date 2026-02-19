@@ -1,0 +1,9 @@
+close session
+open C:/Users/SamanthaTu/OneDrive/Desktop/MSc_research/007_fgfr2_ECD_ICD_constraints/007_fgfr2_ECD_ICD_constraints_model.cif
+# Display and color domains
+cartoon
+color /A:1-377 blue
+color /A:378-398 red
+color /A:399-821 green
+view /A
+
