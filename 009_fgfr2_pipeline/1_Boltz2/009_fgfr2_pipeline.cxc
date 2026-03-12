@@ -1,0 +1,24 @@
+close session
+open C:/Users/SamanthaTu/OneDrive/Desktop/MSc_research/009_fgfr2_pipeline/009_fgfr2_pipeline_model.cif
+
+cartoon
+color /A:1-377 blue
+color /A:378-398 red
+color /A:399-821 green
+
+show #1/B-H
+style #1/B-H stick
+color #1/B-H gold
+
+# Small internal torsional rotation within the ECD
+torsion /A:150@C /A:151@N /A:151@CA /A:151@C 20
+torsion /A:210@C /A:211@N /A:211@CA /A:211@C -20
+
+# Small internal torsional rotation within the ICD
+torsion /A:430@C /A:431@N /A:431@CA /A:431@C 25
+torsion /A:480@C /A:481@N /A:481@CA /A:481@C -25
+torsion /A:510@C /A:511@N /A:511@CA /A:511@C 25
+
+torsion /A:375@C /A:376@N /A:376@CA /A:376@C -180
+
+save C:/Users/SamanthaTu/OneDrive/Desktop/MSc_research/009_fgfr2_pipeline/009_protein_preMD.pdb
