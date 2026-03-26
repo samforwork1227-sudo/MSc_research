@@ -1,5 +1,5 @@
 close session
-open C:/Users/SamanthaTu/OneDrive/Desktop/MSc_research/009_fgfr2_pipeline/009_fgfr2_pipeline_model.cif
+open C:/Users/SamanthaTu/OneDrive/Desktop/MSc_research/009_fgfr2_pipeline/1_Boltz2/009_fgfr2_pipeline_model.cif
 
 cartoon
 color /A:1-377 blue
