@@ -1,0 +1,20 @@
+=== FGFR2 Linker Straightener (PERFECT) ===
+Start: Wed  8 Apr 22:54:35 BST 2026
+Total residues in chain A: 821
+Stretching linker 359-377: 19 residues → 18.0A
+  Result: 18.0A (bend=0.2)
+✓ ECD_linker completed
+Stretching linker 399-418: 20 residues → 25.0A
+  Result: 25.0A (bend=0.3)
+✓ ICD_linker completed
+
+SAVED: 012_FGFR2_clean_linkers.pdb (584KB)
+
+ChimeraX commands:
+open 012_FGFR2_clean_linkers.pdb
+select :359-377.A,:399-418.A; style cartoon
+color /A:359-377#1 yellow; color /A:399-418#1 cyan
+select clear; transparency 50
+measure distance :378.A@CA :398.A@CA
+lighting soft
+Failed!

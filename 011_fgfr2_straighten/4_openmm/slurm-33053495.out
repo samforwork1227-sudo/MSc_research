@@ -1,0 +1,17 @@
+Copied: /scratch/users/k25053715/MSc_research/2_biopython_project/2_straighten/013_straighten/FGFR2_clean_linkers.pdb → ./FGFR2_clean_linkers.pdb
+Starting minimization...
+=== FGFR2 Clean Linkers Minimization ===
+Repaired: 821 residues
+Removed 3 bad disulfides
+Initial energy: 408543162252040463187968.0 kJ/mol
+Coarse min...
+After coarse: -116106.9 kJ/mol
+Fine min...
+Final energy: -121742.9 kJ/mol
+Saved minimized structure, final energy = -121742.9 kJ/mol
+Results:
+-rw-rw---- 1 k25053715 k25053715  511K Apr  4 18:20 013_1_clean_fixed.pdb
+-rw-rw---- 1 k25053715 k25053715 1016K Apr  4 18:21 013_2_clean_withH.pdb
+-rw-rw---- 1 k25053715 k25053715 1016K Apr  4 18:34 013_3_fgfr2_clean_minimized.pdb
+-rw-rw---- 1 k25053715 k25053715  585K Apr  4 18:20 FGFR2_clean_linkers.pdb
+Copy back: cp 013_3_fgfr2_clean_minimized.pdb /your/working/dir/
