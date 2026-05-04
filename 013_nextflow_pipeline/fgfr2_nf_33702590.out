@@ -1,0 +1,120 @@
+
+ N E X T F L O W   ~  version 25.10.4
+
+Launching `main.nf` [happy_brahmagupta] DSL2 - revision: 4a6ca9b353
+
+[-        ] MAKE_BOLTZ_INPUT   -
+[-        ] RUN_BOLTZ2         -
+[-        ] RUNCHIMERAX        -
+[-        ] STRAIGHTEN_LINKERS -
+[-        ] OPENMM_MINIMIZE    -
+WARN: Unknown directive `env` for process `RUNCHIMERAX`
+
+executor >  slurm (1)
+[21/1db00a] MAK…LTZ_INPUT (fgfr2_20lipids) | 0 of 1
+[-        ] RUN_BOLTZ2                     -
+[-        ] RUNCHIMERAX                    -
+[-        ] STRAIGHTEN_LINKERS             -
+[-        ] OPENMM_MINIMIZE                -
+WARN: Unknown directive `env` for process `RUNCHIMERAX`
+
+executor >  slurm (1)
+[21/1db00a] MAK…LTZ_INPUT (fgfr2_20lipids) | 1 of 1 ✔
+[-        ] RUN_BOLTZ2                     | 0 of 1
+[-        ] RUNCHIMERAX                    -
+[-        ] STRAIGHTEN_LINKERS             -
+[-        ] OPENMM_MINIMIZE                -
+WARN: Unknown directive `env` for process `RUNCHIMERAX`
+
+executor >  slurm (2)
+[21/1db00a] MAK…LTZ_INPUT (fgfr2_20lipids) | 1 of 1 ✔
+[79/10174d] RUN_BOLTZ2 (fgfr2_20lipids)    | 0 of 1
+[-        ] RUNCHIMERAX                    -
+[-        ] STRAIGHTEN_LINKERS             -
+[-        ] OPENMM_MINIMIZE                -
+WARN: Unknown directive `env` for process `RUNCHIMERAX`
+
+executor >  slurm (2)
+[21/1db00a] MAK…LTZ_INPUT (fgfr2_20lipids) | 1 of 1 ✔
+[79/10174d] RUN_BOLTZ2 (fgfr2_20lipids)    | 0 of 1
+[-        ] RUNCHIMERAX                    -
+[-        ] STRAIGHTEN_LINKERS             -
+[-        ] OPENMM_MINIMIZE                -
+
+
+executor >  slurm (2)
+[21/1db00a] MAK…LTZ_INPUT (fgfr2_20lipids) | 1 of 1 ✔
+[79/10174d] RUN_BOLTZ2 (fgfr2_20lipids)    | 1 of 1 ✔
+[-        ] RUNCHIMERAX                    | 0 of 1
+[-        ] STRAIGHTEN_LINKERS             -
+[-        ] OPENMM_MINIMIZE                -
+
+
+executor >  slurm (3)
+[21/1db00a] MAK…LTZ_INPUT (fgfr2_20lipids) | 1 of 1 ✔
+[79/10174d] RUN_BOLTZ2 (fgfr2_20lipids)    | 1 of 1 ✔
+[a4/e7092f] RUNCHIMERAX (fgfr2_20lipids)   | 0 of 1
+[-        ] STRAIGHTEN_LINKERS             -
+[-        ] OPENMM_MINIMIZE                -
+
+executor >  slurm (3)
+[21/1db00a] MAK…LTZ_INPUT (fgfr2_20lipids) | 1 of 1 ✔
+[79/10174d] RUN_BOLTZ2 (fgfr2_20lipids)    | 1 of 1 ✔
+[a4/e7092f] RUNCHIMERAX (fgfr2_20lipids)   | 0 of 1
+[-        ] STRAIGHTEN_LINKERS             -
+[-        ] OPENMM_MINIMIZE                -
+
+executor >  slurm (4)
+[21/1db00a] MAK…LTZ_INPUT (fgfr2_20lipids) | 1 of 1 ✔
+[79/10174d] RUN_BOLTZ2 (fgfr2_20lipids)    | 1 of 1 ✔
+[a4/e7092f] RUNCHIMERAX (fgfr2_20lipids)   | 1 of 1 ✔
+[75/19a055] STR…N_LINKERS (fgfr2_20lipids) | 0 of 1
+[-        ] OPENMM_MINIMIZE                -
+
+executor >  slurm (4)
+[21/1db00a] MAK…LTZ_INPUT (fgfr2_20lipids) | 1 of 1 ✔
+[79/10174d] RUN_BOLTZ2 (fgfr2_20lipids)    | 1 of 1 ✔
+[a4/e7092f] RUNCHIMERAX (fgfr2_20lipids)   | 1 of 1 ✔
+[75/19a055] STR…N_LINKERS (fgfr2_20lipids) | 0 of 1
+[-        ] OPENMM_MINIMIZE                -
+
+executor >  slurm (5)
+[21/1db00a] MAK…LTZ_INPUT (fgfr2_20lipids) | 1 of 1 ✔
+[79/10174d] RUN_BOLTZ2 (fgfr2_20lipids)    | 1 of 1 ✔
+[a4/e7092f] RUNCHIMERAX (fgfr2_20lipids)   | 1 of 1 ✔
+[75/19a055] STR…N_LINKERS (fgfr2_20lipids) | 1 of 1 ✔
+[60/844fb7] OPE…_MINIMIZE (fgfr2_20lipids) | 0 of 1
+
+executor >  slurm (5)
+[21/1db00a] MAK…LTZ_INPUT (fgfr2_20lipids) | 1 of 1 ✔
+[79/10174d] RUN_BOLTZ2 (fgfr2_20lipids)    | 1 of 1 ✔
+[a4/e7092f] RUNCHIMERAX (fgfr2_20lipids)   | 1 of 1 ✔
+[75/19a055] STR…N_LINKERS (fgfr2_20lipids) | 1 of 1 ✔
+[60/844fb7] OPE…_MINIMIZE (fgfr2_20lipids) | 0 of 1
+
+executor >  slurm (5)
+[21/1db00a] MAK…LTZ_INPUT (fgfr2_20lipids) | 1 of 1 ✔
+[79/10174d] RUN_BOLTZ2 (fgfr2_20lipids)    | 1 of 1 ✔
+[a4/e7092f] RUNCHIMERAX (fgfr2_20lipids)   | 1 of 1 ✔
+[75/19a055] STR…N_LINKERS (fgfr2_20lipids) | 1 of 1 ✔
+[60/844fb7] OPE…_MINIMIZE (fgfr2_20lipids) | 0 of 1 ✔
+
+executor >  slurm (5)
+[21/1db00a] MAK…LTZ_INPUT (fgfr2_20lipids) | 1 of 1 ✔
+[79/10174d] RUN_BOLTZ2 (fgfr2_20lipids)    | 1 of 1 ✔
+[a4/e7092f] RUNCHIMERAX (fgfr2_20lipids)   | 1 of 1 ✔
+[75/19a055] STR…N_LINKERS (fgfr2_20lipids) | 1 of 1 ✔
+[60/844fb7] OPE…_MINIMIZE (fgfr2_20lipids) | 1 of 1 ✔
+
+executor >  slurm (5)
+[21/1db00a] MAK…LTZ_INPUT (fgfr2_20lipids) | 1 of 1 ✔
+[79/10174d] RUN_BOLTZ2 (fgfr2_20lipids)    | 1 of 1 ✔
+[a4/e7092f] RUNCHIMERAX (fgfr2_20lipids)   | 1 of 1 ✔
+[75/19a055] STR…N_LINKERS (fgfr2_20lipids) | 1 of 1 ✔
+[60/844fb7] OPE…_MINIMIZE (fgfr2_20lipids) | 1 of 1 ✔
+Completed at: 04-May-2026 13:40:58
+Duration    : 15m 21s
+CPU hours   : 0.8
+Succeeded   : 5
+
+
