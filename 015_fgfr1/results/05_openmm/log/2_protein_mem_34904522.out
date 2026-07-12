@@ -1,0 +1,31 @@
+[2_protein_mem] Started at Sun 14 Jun 23:38:17 BST 2026
+Using input PDB: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/3_fgfr1_clean_minimized.pdb
+Output directory: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm
+Python directory: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/python
+Starting membrane construction...
+=== FGFR1 membrane build + minimization ===
+Input file: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/3_fgfr1_clean_minimized.pdb
+Output dir: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm
+TM residues found: 21
+TM center z before shift: -0.467 nm
+Shifted protein so residues 378-398 are centered near z=0
+Adding membrane...
+Deleting 0 lipid/water residues far from the protein
+Wrote /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/4_with_membrane_system.xml
+Saved /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/4_with_membrane.pdb
+Saved /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/4_membrane_no_water.pdb
+[2_protein_mem] Finished in 3 h 16 min 8 s
+Results:
+total 224M
+-rw-rw---- 1 k25053715 k25053715  511K Jun 14 23:31 1_clean_fixed.pdb
+-rw-rw---- 1 k25053715 k25053715     0 Jun 14 23:31 1_protein_min_34904521.err
+-rw-rw---- 1 k25053715 k25053715  1.7K Jun 14 23:38 1_protein_min_34904521.out
+-rw-rw---- 1 k25053715 k25053715 1015K Jun 14 23:31 2_clean_withH.pdb
+-rw-rw---- 1 k25053715 k25053715     0 Jun 14 23:38 2_protein_mem_34904522.err
+-rw-rw---- 1 k25053715 k25053715  1.3K Jun 15 02:54 2_protein_mem_34904522.out
+-rw-rw---- 1 k25053715 k25053715 1015K Jun 14 23:38 3_fgfr1_clean_minimized.pdb
+-rw-rw---- 1 k25053715 k25053715  7.6M Jun 15 02:54 4_membrane_no_water.pdb
+-rw-rw---- 1 k25053715 k25053715   29M Jun 15 02:53 4_with_membrane.pdb
+-rw-rw---- 1 k25053715 k25053715  186M Jun 15 02:54 4_with_membrane_system.xml
+drwxrwx--- 2 k25053715 k25053715     2 Jun 14 23:38 python
+Python script saved at: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/python/2_protein_membrane.py

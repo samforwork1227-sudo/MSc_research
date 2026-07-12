@@ -1,0 +1,14 @@
+Copied: /scratch/users/k25053715/MSc_research/4_openmm_project/2_fgfr2_minimisation/014_membrane/014_4_with_membrane.pdb → ./fgfr2_membrane_full.pdb
+Starting COARSE minimization from pre-built membrane...
+=== FGFR2 membrane minimization: COARSE stage ===
+Loaded system: 1046637 atoms
+Loaded System from 014_4_with_membrane_system.xml
+Initial energy: -8922618.1 kJ/mol
+First pass: relax system (k=1000, maxIterations=2000, tol=1000 kJ/mol/nm)...
+After first pass: -12158585.4 kJ/mol
+Second pass: tight minimization (k=100, maxIterations=1000, tol=10 kJ/mol/nm)...
+After second pass (coarse script final): -14827798.1 kJ/mol
+Saved coarse-minimized full system to 014_5_fgfr2_membrane_min_coarse_full.pdb
+Results (coarse):
+-rw-rw---- 1 k25053715 k25053715 84M May 20 07:13 014_5_fgfr2_membrane_min_coarse_full.pdb
+-rw-rw---- 1 k25053715 k25053715 86M May 20 00:28 fgfr2_membrane_full.pdb

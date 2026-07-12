@@ -1,0 +1,1 @@
+OpenMM job chain for fgfr1_20lipids: 34899677 -> 34899678 -> 34899679 -> 34899680

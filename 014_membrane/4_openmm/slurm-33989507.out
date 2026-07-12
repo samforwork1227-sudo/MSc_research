@@ -1,0 +1,14 @@
+cp: '/scratch/users/k25053715/MSc_research/4_openmm_project/2_fgfr2_minimisation/014_membrane/014_5_fgfr2_membrane_min_coarse_full.pdb' and './014_5_fgfr2_membrane_min_coarse_full.pdb' are the same file
+Copied: /scratch/users/k25053715/MSc_research/4_openmm_project/2_fgfr2_minimisation/014_membrane/014_5_fgfr2_membrane_min_coarse_full.pdb → ./014_5_fgfr2_membrane_min_coarse_full.pdb
+Starting FINE minimization from coarse-minimized membrane...
+=== FGFR2 membrane minimization: FINE stage ===
+Loaded coarse-minimized system: 1046637 atoms
+Loaded System from 014_4_with_membrane_system.xml
+Energy before fine: -14832776.2 kJ/mol
+Fine min with weaker restraints (k=100, maxIterations=1000)...
+Final energy after fine: -15289542.9 kJ/mol
+Saved minimized full system to 014_6_fgfr2_membrane_minimized_full.pdb
+Saved minimized protein+membrane to 014_6_fgfr2_membrane_minimized_no_water.pdb
+Results (fine):
+-rw-rw---- 1 k25053715 k25053715 84M May 20 10:56 014_6_fgfr2_membrane_minimized_full.pdb
+-rw-rw---- 1 k25053715 k25053715 20M May 20 10:56 014_6_fgfr2_membrane_minimized_no_water.pdb

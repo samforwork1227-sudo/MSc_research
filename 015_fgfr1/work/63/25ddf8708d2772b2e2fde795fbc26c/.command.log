@@ -1,0 +1,4 @@
+Using clean PDB: FGFR1_clean_linkers.pdb
+sbatch: error: This does not look like a batch script.  The first
+sbatch: error: line must start with #! followed by the path to an interpreter.
+sbatch: error: For instance: #!/bin/sh

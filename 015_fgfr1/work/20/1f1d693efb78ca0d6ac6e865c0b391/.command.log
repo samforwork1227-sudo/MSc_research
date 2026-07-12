@@ -1,0 +1,5 @@
+INFO:    Mounting image with FUSE.
+WARNING: Not virtualizing pid namespace by configuration
+[RUNCHIMERAX] Started at Sun Jun 14 14:01:15 BST 2026
+/cephfs/volumes/hpc_data_usr/k25053715/3a800abf-2370-46d6-96d9-b8284b670110/MSc_research/nextflow/2_pipeline/015_fgfr1/work/20/1f1d693efb78ca0d6ac6e865c0b391/.command.sh: line 69: warning: here-document at line 11 delimited by end-of-file (wanted `EOF')
+/cephfs/volumes/hpc_data_usr/k25053715/3a800abf-2370-46d6-96d9-b8284b670110/MSc_research/nextflow/2_pipeline/015_fgfr1/work/20/1f1d693efb78ca0d6ac6e865c0b391/.command.sh: line 11: end_ts: unbound variable

@@ -1,0 +1,153 @@
+INFO:    Mounting image with FUSE.
+WARNING: Not virtualizing pid namespace by configuration
+[RUNCHIMERAX] Started at Sun Jun 14 14:32:15 BST 2026
+PWD=/tmp/nxf.8ri6OgIygv
+ciffile=fgfr1_20lipids_model_0.cif
+total 0
+lrwxrwxrwx 1 k25053715 k25053715 184 Jun 14 14:32 fgfr1_20lipids_model_0.cif -> /cephfs/volumes/hpc_data_usr/k25053715/3a800abf-2370-46d6-96d9-b8284b670110/MSc_research/nextflow/2_pipeline/015_fgfr1/work/bd/4d73e915dc248c2a65fba0bc735944/fgfr1_20lipids_model_0.cif
+lrwxrwxrwx 1 k25053715 k25053715 184 Jun 14 14:32 fgfr1_20lipids_model_0.cif -> /cephfs/volumes/hpc_data_usr/k25053715/3a800abf-2370-46d6-96d9-b8284b670110/MSc_research/nextflow/2_pipeline/015_fgfr1/work/bd/4d73e915dc248c2a65fba0bc735944/fgfr1_20lipids_model_0.cif
+===== run.cxc =====
+close session
+open fgfr1_20lipids_model_0.cif
+cartoon
+color /A:1-376 blue
+color /A:377-397 red
+color /A:398-822 green
+
+show #1/B-U
+style #1/B-U stick
+color #1/B-U gold
+
+measure inertia #1/A:377-397@CA
+
+shape cylinder fromPoint 8.6225,-11.792,-4.3179 axis -0.422,0.112,-0.900 height 40 radius 0.3 color red coordinateSystem #1
+shape cylinder fromPoint 8.6225,-11.792,-4.3179 axis 0.422,-0.112,0.900 height 40 radius 0.3 color red coordinateSystem #1
+
+# ICD
+torsion #1:A:408@C #1:A:409@N #1:A:409@CA #1:A:409@C 150 move large
+torsion #1:A:419@C #1:A:420@N #1:A:420@CA #1:A:420@C -8 move small
+torsion #1:A:399@C #1:A:400@N #1:A:400@CA #1:A:400@C 10 move large
+
+# ECD hinges
+torsion #1:A:253@C #1:A:254@N #1:A:254@CA #1:A:254@C -10 move small
+torsion #1:A:376@C #1:A:377@N #1:A:377@CA #1:A:377@C 30 move small
+torsion #1:A:154@C #1:A:155@N #1:A:155@CA #1:A:155@C 15 move small
+torsion #1:A:376@C #1:A:377@N #1:A:377@CA #1:A:377@C 10 move small
+torsion #1:A:376@C #1:A:377@N #1:A:377@CA #1:A:377@C 55 move small
+torsion #1:A:250@C #1:A:251@N #1:A:251@CA #1:A:251@C 12 move small
+torsion #1:A:255@C #1:A:256@N #1:A:256@CA #1:A:256@C 25 move small
+torsion #1:A:360@C #1:A:361@N #1:A:361@CA #1:A:361@C 20 move small
+torsion #1:A:370@C #1:A:371@N #1:A:371@CA #1:A:371@C 30 move small
+
+save "/tmp/nxf.8ri6OgIygv/protein_preMD.pdb" format pdb models #1
+exit
+INFO:
+available bundle cache has not been initialized yet
+INFO:
+Executing: runscript /tmp/nxf.8ri6OgIygv/run.cxc
+INFO:
+Executing: close session
+INFO:
+Executing: open fgfr1_20lipids_model_0.cif
+INFO:
+Summary of feedback from opening fgfr1_20lipids_model_0.cif  
+---  
+_warning_ | Unable to fetch template for 'LIG1': might have incorrect bonds  
+  
+
+INFO:
+_fgfr1_20lipids_model_0.cif_ title:  
+ **.** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for fgfr1_20lipids_model_0.cif #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:1-822 "Select chain") | [.](cxcmd:sequence chain #1/A
+"Show sequence")  
+  
+
+INFO:
+Non-standard residues in fgfr1_20lipids_model_0.cif #1  
+---  
+[LIG1](cxcmd:sel :LIG1 "select residue") —
+[(LIG1)](http://www.rcsb.org/ligand/LIG1 "show residue info")  
+  
+
+INFO:
+Executing: cartoon
+INFO:
+Executing: color /A:1-376 blue
+STATUS:
+Colored 2942 atoms, 0 surfaces, 376 residues, rings, and 3018 bonds
+INFO:
+Executing: color /A:377-397 red
+STATUS:
+Colored 156 atoms, 0 surfaces, 21 residues, rings, and 158 bonds
+INFO:
+Executing: color /A:398-822 green
+STATUS:
+Colored 3347 atoms, 0 surfaces, 425 residues, rings, and 3422 bonds
+INFO:
+Executing: show #1/B-U
+INFO:
+Executing: style #1/B-U stick
+STATUS:
+Changed 1000 atom styles
+INFO:
+Changed 1000 atom styles
+INFO:
+Executing: color #1/B-U gold
+STATUS:
+Colored 1000 atoms, 0 surfaces, 20 residues, rings, and 980 bonds
+INFO:
+Executing: measure inertia #1/A:377-397@CA
+INFO:
+Inertia axes for fgfr1_20lipids_model_0.cif, 21 atoms
+	v1 =  0.526 -0.257  0.811   a = 20.176   r1 =  2.268
+	v2 =  0.292 -0.841 -0.456   b =  3.642   r2 =  9.160
+	v3 =  0.798  0.477 -0.367   c =  3.529   r3 =  9.169
+	center =   6.4832   -13.89  -6.2387
+
+INFO:
+Executing: shape cylinder fromPoint 8.6225,-11.792,-4.3179 axis -0.422,0.112,-0.900 height 40 radius 0.3 color red coordinateSystem #1
+INFO:
+Executing: shape cylinder fromPoint 8.6225,-11.792,-4.3179 axis 0.422,-0.112,0.900 height 40 radius 0.3 color red coordinateSystem #1
+INFO:
+Executing: torsion #1:A:408@C #1:A:409@N #1:A:409@CA #1:A:409@C 150 move large
+INFO:
+Executing: torsion #1:A:419@C #1:A:420@N #1:A:420@CA #1:A:420@C -8 move small
+INFO:
+Executing: torsion #1:A:399@C #1:A:400@N #1:A:400@CA #1:A:400@C 10 move large
+INFO:
+Executing: torsion #1:A:253@C #1:A:254@N #1:A:254@CA #1:A:254@C -10 move small
+INFO:
+Executing: torsion #1:A:376@C #1:A:377@N #1:A:377@CA #1:A:377@C 30 move small
+INFO:
+Executing: torsion #1:A:154@C #1:A:155@N #1:A:155@CA #1:A:155@C 15 move small
+INFO:
+Executing: torsion #1:A:376@C #1:A:377@N #1:A:377@CA #1:A:377@C 10 move small
+INFO:
+Executing: torsion #1:A:376@C #1:A:377@N #1:A:377@CA #1:A:377@C 55 move small
+INFO:
+Executing: torsion #1:A:250@C #1:A:251@N #1:A:251@CA #1:A:251@C 12 move small
+INFO:
+Executing: torsion #1:A:255@C #1:A:256@N #1:A:256@CA #1:A:256@C 25 move small
+INFO:
+Executing: torsion #1:A:360@C #1:A:361@N #1:A:361@CA #1:A:361@C 20 move small
+INFO:
+Executing: torsion #1:A:370@C #1:A:371@N #1:A:371@CA #1:A:371@C 30 move small
+INFO:
+Executing: save /tmp/nxf.8ri6OgIygv/protein_preMD.pdb format pdb models #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...
+ChimeraX exit code: 0
+total 612
+drwxrwx--- 3 k25053715 k25053715     22 Jun 14 14:32 Downloads
+lrwxrwxrwx 1 k25053715 k25053715    184 Jun 14 14:32 fgfr1_20lipids_model_0.cif -> /cephfs/volumes/hpc_data_usr/k25053715/3a800abf-2370-46d6-96d9-b8284b670110/MSc_research/nextflow/2_pipeline/015_fgfr1/work/bd/4d73e915dc248c2a65fba0bc735944/fgfr1_20lipids_model_0.cif
+-rw-rw---- 1 k25053715 k25053715 618657 Jun 14 14:33 protein_preMD.pdb
+-rw-rw---- 1 k25053715 k25053715   1348 Jun 14 14:32 run.cxc
+[RUNCHIMERAX] Finished in 1 min 10 s

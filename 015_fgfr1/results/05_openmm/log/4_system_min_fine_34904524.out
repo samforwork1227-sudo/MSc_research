@@ -1,0 +1,22 @@
+[4_system_min_fine] Started at Mon 15 Jun 17:02:41 BST 2026
+Using input PDB: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/5_fgfr1_membrane_min_coarse_full.pdb
+Using system XML: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/4_with_membrane_system.xml
+Output directory: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm
+Python directory: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/python
+Starting FINE minimization from coarse-minimized membrane...
+=== FGFR1 membrane minimization: FINE stage ===
+Input PDB: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/5_fgfr1_membrane_min_coarse_full.pdb
+System XML: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/4_with_membrane_system.xml
+Output dir: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm
+Loaded coarse-minimized system: 350355 atoms
+Loaded System from /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/4_with_membrane_system.xml
+Energy before fine: -5003041.3 kJ/mol
+Fine min with weaker restraints (k=100, maxIterations=1000)...
+Final energy after fine: -5003057.7 kJ/mol
+Saved minimized full system to /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/6_fgfr1_membrane_minimized_full.pdb
+Saved minimized protein+membrane to /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/6_fgfr1_membrane_minimized_no_water.pdb
+[4_system_min_fine] Finished in 1 h 55 min 13 s
+Results (fine):
+-rw-rw---- 1 k25053715 k25053715  29M Jun 15 18:57 /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/6_fgfr1_membrane_minimized_full.pdb
+-rw-rw---- 1 k25053715 k25053715 7.6M Jun 15 18:57 /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/6_fgfr1_membrane_minimized_no_water.pdb
+Python script saved at: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/python/4_system_min_fine.py

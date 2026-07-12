@@ -1,0 +1,16 @@
+Submitting OpenMM minimization pipeline...
+Input PDB: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/04_biopython/FGFR1_clean_linkers.pdb
+Output dir: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm
+Submitted:
+ 1_protein_min.sh        : 34904521
+ 2_protein_membrane.sh   : 34904522 (afterok:34904521)
+ 3_system_min_coarse.sh  : 34904523 (afterok:34904522)
+ 4_system_min_fine.sh    : 34904524 (afterok:34904523)
+
+Expected outputs:
+ step1 -> /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/3_fgfr1_clean_minimized.pdb
+ step2 -> /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/4_with_membrane.pdb
+ step2 -> /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/4_with_membrane_system.xml
+ step3 -> /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/5_fgfr1_membrane_min_coarse_full.pdb
+ step4 -> /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/6_fgfr1_membrane_minimized_full.pdb
+ step4 -> /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/6_fgfr1_membrane_minimized_no_water.pdb

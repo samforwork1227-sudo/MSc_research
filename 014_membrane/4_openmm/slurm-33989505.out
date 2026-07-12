@@ -1,0 +1,15 @@
+Starting membrane construction...
+=== FGFR2 membrane build + minimization ===
+TM residues found: 21
+TM center z before shift: 0.957 nm
+Shifted protein so residues 378-398 are centered near z=0
+Adding membrane...
+Deleting 0 lipid/water residues far from the protein
+Wrote 014_4_with_membrane_system.xml
+Results:
+-rw-rw---- 1 k25053715 k25053715  585K May 19 18:55 012_FGFR2_clean_linkers.pdb
+-rw-rw---- 1 k25053715 k25053715  511K May 19 18:55 014_1_clean_fixed.pdb
+-rw-rw---- 1 k25053715 k25053715 1016K May 19 18:55 014_2_clean_withH.pdb
+-rw-rw---- 1 k25053715 k25053715 1016K May 19 19:00 014_3_fgfr2_clean_minimized.pdb
+-rw-rw---- 1 k25053715 k25053715   21M May 20 00:27 014_4_membrane_no_water.pdb
+-rw-rw---- 1 k25053715 k25053715   86M May 20 00:25 014_4_with_membrane.pdb
