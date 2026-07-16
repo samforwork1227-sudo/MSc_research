@@ -59,7 +59,7 @@ MSc_research/
 |-- LICENSE
 |-- .gitignore
 |-- envs/                     # environment.yml / requirements.txt / install_*.sh
-|-- pipeline/                 # final Nextflow pipeline (was 013_nextflow_pipeline)
+|-- pipeline/                 # final Nextflow pipeline (was 015_fgfr1)
 |   |-- main.nf
 |   |-- nextflow.config
 |   `-- bin/                  # straighten_linker.py, fgfr2_minimize_clean.py, *.cxc
