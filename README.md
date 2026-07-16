@@ -65,7 +65,7 @@ MSc_research/
 |-- experiments/              # exploratory runs 001-015 (lab-notebook history)
 |-- analysis/                 # dissertation_figures.ipynb and derived figures
 |-- data/                     # small inputs (sequences, YAML) - NOT large outputs
-`-- docs/                     # dissertation figures, notes
+`-- docs/                     # dissertation figures, energy table
 ```
 
 ## Requirements
