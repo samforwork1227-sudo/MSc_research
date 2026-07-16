@@ -61,8 +61,7 @@ MSc_research/
 |-- envs/                     # environment.yml / requirements.txt / install_*.sh
 |-- pipeline/                 # final Nextflow pipeline (was 015_fgfr1)
 |   |-- main.nf
-|   |-- nextflow.config
-|   `-- bin/                  # straighten_linker.py, fgfr2_minimize_clean.py, *.cxc
+|   `-- nextflow.config
 |-- experiments/              # exploratory runs 001-015 (lab-notebook history)
 |-- analysis/                 # dissertation_figures.ipynb and derived figures
 |-- data/                     # small inputs (sequences, YAML) - NOT large outputs
