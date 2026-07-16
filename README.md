@@ -124,5 +124,4 @@ logs are large and are best excluded from version control (see `.gitignore`).
 
 ## Citation
 
-If you use this workflow, please cite the accompanying MSc dissertation
-(King's College London, 2026).
+If you use this workflow, please cite the accompanying MSc dissertation, Improve the structure prediction of proteins spanning lipid membranes for improved drug discovery, King’s College London (2026).
