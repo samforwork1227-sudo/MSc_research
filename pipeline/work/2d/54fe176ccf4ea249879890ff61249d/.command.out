@@ -1,9 +1,0 @@
-[STRAIGHTEN_LINKERS] Started at Sun 14 Jun 20:43:54 BST 2026
-Stretching linker 359-377: 19 residues -> 18.0A
-Result: 18.0A (bend=0.2)
-ECD_linker completed
-Stretching linker 399-418: 20 residues -> 25.0A
-Result: 25.0A (bend=0.3)
-ICD_linker completed
-Saved FGFR1_clean_linkers.pdb (583KB)
-[RUNCHIMERAX] Finished in 0 min 12 s

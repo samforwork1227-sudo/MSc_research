@@ -1,23 +1,0 @@
-[RUN_BOLTZ2] Started at Sun 14 Jun 14:40:51 BST 2026
-[RUN_BOLTZ2] Input YAML: fgfr1_20lipids.yaml
-MSA server enabled: https://api.colabfold.com
-MSA server authentication: no credentials provided
-Checking input data.
-Processing 1 inputs with 1 threads.
-Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
-WARNING: RDKit ETKDGv3 failed to generate a conformer for molecule CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCC, so the program will start with random coordinates. Note that the performance of the model under this behaviour was not tested.
-Running structure prediction for 1 input.
-Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [02:53<00:00,  0.01it/s]Number of failed examples: 0
-Predicting DataLoader 0: 100%|██████████| 1/1 [02:53<00:00,  0.01it/s]
-boltz_out/boltz_results_fgfr1_20lipids/processed/records/fgfr1_20lipids.json
-boltz_out/boltz_results_fgfr1_20lipids/processed/structures/fgfr1_20lipids.npz
-boltz_out/boltz_results_fgfr1_20lipids/processed/constraints/fgfr1_20lipids.npz
-boltz_out/boltz_results_fgfr1_20lipids/processed/mols/fgfr1_20lipids.pkl
-boltz_out/boltz_results_fgfr1_20lipids/processed/manifest.json
-boltz_out/boltz_results_fgfr1_20lipids/predictions/fgfr1_20lipids/fgfr1_20lipids_model_0.cif
-boltz_out/boltz_results_fgfr1_20lipids/predictions/fgfr1_20lipids/confidence_fgfr1_20lipids_model_0.json
-boltz_out/boltz_results_fgfr1_20lipids/predictions/fgfr1_20lipids/plddt_fgfr1_20lipids_model_0.npz
-boltz_out/boltz_results_fgfr1_20lipids/predictions/fgfr1_20lipids/pae_fgfr1_20lipids_model_0.npz
-boltz_out/boltz_results_fgfr1_20lipids/predictions/fgfr1_20lipids/pde_fgfr1_20lipids_model_0.npz
-boltz_out/boltz_results_fgfr1_20lipids/lightning_logs/version_0/hparams.yaml
-[RUN_BOLTZ2] Finished in 3 min 39 s
