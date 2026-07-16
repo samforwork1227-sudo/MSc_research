@@ -45,9 +45,9 @@ experiment; folder numbers match the **Experiment ID** column of
 | `010_fgfr2_20lipids` | 20-lipid model generated on the HPC |
 | `011_fgfr2_straighten` | Biopython linker straightening |
 | `012_fgfr2_finetune` | Linker fine-tuning / domain separation |
-| `013_nextflow_pipeline` | **Final consolidated Nextflow pipeline** (`main.nf`, `nextflow.config`) |
+| `013_nextflow_pipeline` | Nextflow pipeline excluding membrane construction and system energy minimisation steps(`main.nf`, `nextflow.config`) |
 | `014_membrane` | Explicit membrane construction in OpenMM (four sub-steps) |
-| `015_fgfr1` | FGFR1 generalisation test (full pipeline applied to FGFR1) |
+| `015_fgfr1` | **Final consolidated Nextflow pipeline** (full pipeline applied to FGFR1) |
 | `dissertation_figures.ipynb` | Plotting notebook for the pLDDT, PAE, energy-profile and runtime figures |
 | `experiment_master.xlsx` | Master experiment log |
 
