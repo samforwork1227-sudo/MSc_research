@@ -96,7 +96,7 @@ Separate environments are used for each tool (create with the scripts in
 ## Running the pipeline
 
 ```bash
-cd 013_nextflow_pipeline
+cd 015_fgfr1
 # edit paths in main.nf / nextflow.config for your system, then:
 sbatch run_nextflow_fgfr2.sbatch          # HPC
 # or, interactively:
