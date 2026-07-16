@@ -1,0 +1,2 @@
+[RUN_BOLTZ2] Started at Sat 13 Jun 21:25:39 BST 2026
+/cephfs/volumes/hpc_data_usr/k25053715/3a800abf-2370-46d6-96d9-b8284b670110/MSc_research/nextflow/2_pipeline/015_fgfr1/work/be/40de482aa60c6c043cabddd0e81419/.command.sh: line 17: yaml_file: unbound variable

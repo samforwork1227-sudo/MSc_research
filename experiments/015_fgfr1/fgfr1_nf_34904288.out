@@ -1,0 +1,113 @@
+
+ N E X T F L O W   ~  version 25.10.4
+
+Launching `main.nf` [angry_sanger] DSL2 - revision: 80f1e093ba
+
+[-        ] MAKE_BOLTZ_INPUT   | 0 of 1
+[-        ] RUN_BOLTZ2         -
+[-        ] RUNCHIMERAX        -
+[-        ] STRAIGHTEN_LINKERS -
+[-        ] SUBMIT_OPENMM_JOBS -
+WARN: Unknown directive `env` for process `RUNCHIMERAX`
+
+executor >  slurm (1)
+[17/74ed47] MAK…LTZ_INPUT (fgfr1_20lipids) | 0 of 1
+[-        ] RUN_BOLTZ2                     -
+[-        ] RUNCHIMERAX                    -
+[-        ] STRAIGHTEN_LINKERS             -
+[-        ] SUBMIT_OPENMM_JOBS             -
+WARN: Unknown directive `env` for process `RUNCHIMERAX`
+
+executor >  slurm (1)
+[17/74ed47] MAK…LTZ_INPUT (fgfr1_20lipids) | 0 of 1
+[-        ] RUN_BOLTZ2                     -
+[-        ] RUNCHIMERAX                    -
+[-        ] STRAIGHTEN_LINKERS             -
+[-        ] SUBMIT_OPENMM_JOBS             -
+WARN: Unknown directive `env` for process `RUNCHIMERAX`
+
+executor >  slurm (2)
+[17/74ed47] MAK…LTZ_INPUT (fgfr1_20lipids) | 1 of 1 ✔
+[88/5a2af5] RUN_BOLTZ2 (fgfr1_20lipids)    | 0 of 1
+[-        ] RUNCHIMERAX                    -
+[-        ] STRAIGHTEN_LINKERS             -
+[-        ] SUBMIT_OPENMM_JOBS             -
+WARN: Unknown directive `env` for process `RUNCHIMERAX`
+
+executor >  slurm (2)
+[17/74ed47] MAK…LTZ_INPUT (fgfr1_20lipids) | 1 of 1 ✔
+[88/5a2af5] RUN_BOLTZ2 (fgfr1_20lipids)    | 0 of 1
+[-        ] RUNCHIMERAX                    -
+[-        ] STRAIGHTEN_LINKERS             -
+[-        ] SUBMIT_OPENMM_JOBS             -
+
+
+executor >  slurm (3)
+[17/74ed47] MAK…LTZ_INPUT (fgfr1_20lipids) | 1 of 1 ✔
+[88/5a2af5] RUN_BOLTZ2 (fgfr1_20lipids)    | 1 of 1 ✔
+[48/4b8032] RUNCHIMERAX (fgfr1_20lipids)   | 0 of 1
+[-        ] STRAIGHTEN_LINKERS             -
+[-        ] SUBMIT_OPENMM_JOBS             -
+
+
+executor >  slurm (3)
+[17/74ed47] MAK…LTZ_INPUT (fgfr1_20lipids) | 1 of 1 ✔
+[88/5a2af5] RUN_BOLTZ2 (fgfr1_20lipids)    | 1 of 1 ✔
+[48/4b8032] RUNCHIMERAX (fgfr1_20lipids)   | 0 of 1
+[-        ] STRAIGHTEN_LINKERS             -
+[-        ] SUBMIT_OPENMM_JOBS             -
+
+executor >  slurm (3)
+[17/74ed47] MAK…LTZ_INPUT (fgfr1_20lipids) | 1 of 1 ✔
+[88/5a2af5] RUN_BOLTZ2 (fgfr1_20lipids)    | 1 of 1 ✔
+[48/4b8032] RUNCHIMERAX (fgfr1_20lipids)   | 1 of 1 ✔
+[-        ] STRAIGHTEN_LINKERS             | 0 of 1
+[-        ] SUBMIT_OPENMM_JOBS             -
+
+executor >  slurm (4)
+[17/74ed47] MAK…LTZ_INPUT (fgfr1_20lipids) | 1 of 1 ✔
+[88/5a2af5] RUN_BOLTZ2 (fgfr1_20lipids)    | 1 of 1 ✔
+[48/4b8032] RUNCHIMERAX (fgfr1_20lipids)   | 1 of 1 ✔
+[2a/79ce24] STR…N_LINKERS (fgfr1_20lipids) | 0 of 1
+[-        ] SUBMIT_OPENMM_JOBS             -
+
+executor >  slurm (4)
+[17/74ed47] MAK…LTZ_INPUT (fgfr1_20lipids) | 1 of 1 ✔
+[88/5a2af5] RUN_BOLTZ2 (fgfr1_20lipids)    | 1 of 1 ✔
+[48/4b8032] RUNCHIMERAX (fgfr1_20lipids)   | 1 of 1 ✔
+[2a/79ce24] STR…N_LINKERS (fgfr1_20lipids) | 0 of 1
+[-        ] SUBMIT_OPENMM_JOBS             -
+
+executor >  slurm (4)
+[17/74ed47] MAK…LTZ_INPUT (fgfr1_20lipids) | 1 of 1 ✔
+[88/5a2af5] RUN_BOLTZ2 (fgfr1_20lipids)    | 1 of 1 ✔
+[48/4b8032] RUNCHIMERAX (fgfr1_20lipids)   | 1 of 1 ✔
+[2a/79ce24] STR…N_LINKERS (fgfr1_20lipids) | 1 of 1 ✔
+[-        ] SUBMIT_OPENMM_JOBS             | 0 of 1
+
+executor >  slurm (5)
+[17/74ed47] MAK…LTZ_INPUT (fgfr1_20lipids) | 1 of 1 ✔
+[88/5a2af5] RUN_BOLTZ2 (fgfr1_20lipids)    | 1 of 1 ✔
+[48/4b8032] RUNCHIMERAX (fgfr1_20lipids)   | 1 of 1 ✔
+[2a/79ce24] STR…N_LINKERS (fgfr1_20lipids) | 1 of 1 ✔
+[b2/126e52] SUB…ENMM_JOBS (fgfr1_20lipids) | 0 of 1
+
+executor >  slurm (5)
+[17/74ed47] MAK…LTZ_INPUT (fgfr1_20lipids) | 1 of 1 ✔
+[88/5a2af5] RUN_BOLTZ2 (fgfr1_20lipids)    | 1 of 1 ✔
+[48/4b8032] RUNCHIMERAX (fgfr1_20lipids)   | 1 of 1 ✔
+[2a/79ce24] STR…N_LINKERS (fgfr1_20lipids) | 1 of 1 ✔
+[b2/126e52] SUB…ENMM_JOBS (fgfr1_20lipids) | 1 of 1 ✔
+
+executor >  slurm (5)
+[17/74ed47] MAK…LTZ_INPUT (fgfr1_20lipids) | 1 of 1 ✔
+[88/5a2af5] RUN_BOLTZ2 (fgfr1_20lipids)    | 1 of 1 ✔
+[48/4b8032] RUNCHIMERAX (fgfr1_20lipids)   | 1 of 1 ✔
+[2a/79ce24] STR…N_LINKERS (fgfr1_20lipids) | 1 of 1 ✔
+[b2/126e52] SUB…ENMM_JOBS (fgfr1_20lipids) | 1 of 1 ✔
+Completed at: 14-Jun-2026 23:09:41
+Duration    : 12m 16s
+CPU hours   : 0.6
+Succeeded   : 5
+
+

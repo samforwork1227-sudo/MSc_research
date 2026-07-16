@@ -1,0 +1,22 @@
+[3_system_min_coarse] Started at Mon 15 Jun 02:54:54 BST 2026
+Using input PDB: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/4_with_membrane.pdb
+Using system XML: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/4_with_membrane_system.xml
+Output directory: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm
+Python directory: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/python
+Starting COARSE minimization from pre-built membrane...
+=== FGFR1 membrane minimization: COARSE stage ===
+Input PDB: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/4_with_membrane.pdb
+Input XML: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/4_with_membrane_system.xml
+Output dir: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm
+Loaded system: 350355 atoms
+Loaded System from /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/4_with_membrane_system.xml
+Initial energy: -2774538.6 kJ/mol
+First pass: relax system (k=1000, maxIterations=2000, tol=1000 kJ/mol/nm)...
+After first pass: -3842209.6 kJ/mol
+Second pass: tight minimization (k=100, maxIterations=1000, tol=10 kJ/mol/nm)...
+After second pass (coarse script final): -5000900.8 kJ/mol
+Saved coarse-minimized full system to /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/5_fgfr1_membrane_min_coarse_full.pdb
+[3_system_min_coarse] Finished in 14 h 7 min 14 s
+Results (coarse):
+-rw-rw---- 1 k25053715 k25053715 29M Jun 15 17:02 /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/5_fgfr1_membrane_min_coarse_full.pdb
+Python script saved at: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/python/3_system_min_coarse.py

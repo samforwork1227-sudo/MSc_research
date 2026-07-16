@@ -1,0 +1,23 @@
+[1_protein_min] Started at Sun 14 Jun 23:31:07 BST 2026
+Using input PDB: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/04_biopython/FGFR1_clean_linkers.pdb
+Output directory: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm
+Python directory: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/python
+Starting minimization...
+=== FGFR1 Clean Linkers Minimization ===
+Input file: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/04_biopython/FGFR1_clean_linkers.pdb
+Output dir: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm
+Repaired: 822 residues
+Removed 3 bad disulfides
+Initial energy: 96849706239.3 kJ/mol
+Coarse min...
+After coarse: -122774.3 kJ/mol
+Fine min...
+Final energy: -128527.6 kJ/mol
+Saved minimized structure: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/3_fgfr1_clean_minimized.pdb
+Final energy = -128527.6 kJ/mol
+[1_protein_min] Finished in 0 h 7 min 0 s
+Results:
+-rw-rw---- 1 k25053715 k25053715  511K Jun 14 23:31 /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/1_clean_fixed.pdb
+-rw-rw---- 1 k25053715 k25053715 1015K Jun 14 23:31 /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/2_clean_withH.pdb
+-rw-rw---- 1 k25053715 k25053715 1015K Jun 14 23:38 /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/3_fgfr1_clean_minimized.pdb
+Python script saved at: /scratch/users/k25053715/MSc_research/nextflow/2_pipeline/015_fgfr1/results/05_openmm/python/1_protein_min.py

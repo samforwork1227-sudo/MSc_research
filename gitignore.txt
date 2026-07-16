@@ -1,0 +1,40 @@
+# --- Nextflow runtime (should not be committed) ---
+.nextflow/
+.nextflow.log*
+work/
+**/work/
+
+# --- Scheduler / job logs ---
+slurm-*.out
+*.out
+*.err
+fgfr2_*_*.out
+fgfr2_*_*.err
+
+# --- Large Boltz-2 prediction artefacts ---
+# Keep the final .cif model and confidence json; drop bulky binaries.
+**/boltz_out/
+**/boltz_results_*/**/processed/
+**/*.npz
+**/*.pkl
+**/lightning_logs/
+
+# --- Pipeline results tree (regenerated on each run) ---
+013_nextflow_pipeline/results/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+*~
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# --- Environments ---
+*_venv/
+.conda/
+.cache/
+
+# NOTE: keep small, reproducibility-critical files, e.g.:
+#   *.yaml (job descriptions), *.cxc (ChimeraX), *.nf, nextflow.config,
+#   straighten_linker.py, fgfr2_minimize_clean.py, and a single final model CIF/PDB.
